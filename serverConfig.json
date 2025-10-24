@@ -1,0 +1,3 @@
+{
+    "serverConfig": "{\"mcpServers\":{\"gradio-mcp-agent-hack\":{\"command\":\"uvx\",\"args\":[\"--from\",\"iflow-mcp_gradio-mcp-agent-hack\",\"gradio-mcp-agent-hack\"],\"values\":{}}}}"
+}

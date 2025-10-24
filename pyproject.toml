@@ -29,3 +29,11 @@ dev = [
 
 [project.scripts]
 gradio-mcp-agent-hack = "app:main"
+
+
+[tool.setuptools]
+packages = ["mcp_hub"]
+py-modules = ["app", "mcp_api_call"]
+
+[tool.setuptools.package-data]
+mcp_hub = ["*"]
