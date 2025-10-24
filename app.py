@@ -2363,7 +2363,8 @@ with gr.Blocks(title="Shallow Research Code Assistant Hub",
 # ----------------------------------------
 # Main Entry Point
 # ----------------------------------------
-if __name__ == "__main__":
+def main():
+    """Main entry point for the MCP Hub application."""
     import signal
     import atexit
     
@@ -2421,4 +2422,8 @@ if __name__ == "__main__":
         logger.error(f"Application error: {e}")
         cleanup_on_exit()
         raise
+
+
+if __name__ == "__main__":
+    main()
 
